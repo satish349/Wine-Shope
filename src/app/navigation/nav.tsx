@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const NavBar = {
+const NavBar: React.CSSProperties = {
     display:'flex',
     width:'100%',
     alignItems:'center',
@@ -10,15 +10,15 @@ const NavBar = {
     position:'fixed',
     zIndex: 1000,
 }
-const ulStyle = {
+const ulStyle: React.CSSProperties = {
     display:'flex',
     margin:'0 0 0 200px'
 }
-const liStyle = {
+const liStyle: React.CSSProperties = {
     padding:'5px 20px',
     fontSize:'1rem'
 }
-const searchSty = {
+const searchSty: React.CSSProperties = {
     padding:'10px 20px',
     backgroundColor:'rgba(255, 255, 255, 0.28)',
     color:'white',
